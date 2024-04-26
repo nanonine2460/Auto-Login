@@ -1,5 +1,3 @@
-# Auto-Login
-
 # Auto-Login Chrome Extension
 
 ## Description:
