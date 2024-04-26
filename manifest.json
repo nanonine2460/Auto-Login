@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Moodle Auto login",
+  "version": "1.0",
+  "description": "This extension will help to you to seamlessly login into moodle with autocaptcha filling.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://moodle.iitd.ac.in/login/index.php" 
+      ],
+      "js": ["credentials.js","moodle.js"]
+    },
+    {
+      "matches": [
+        "https://webmail.iitd.ac.in/roundcube/*" 
+      ],
+      "js": [ "credentials.js","webmail.js"]
+    }
+  ]
+}
