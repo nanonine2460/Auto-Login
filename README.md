@@ -10,14 +10,14 @@ This Chrome extension is designed to streamline the login process for Moodle and
 
 ## Installation Guide:
 1. **Download Repository:**
-   - Download the repository as a zip file.
+   - Download the repository as a zip file.[Link](https://github.com/nanonine2460/Auto-Login/archive/refs/heads/main.zip)
 2. **Extract Files:**
    - Extract the contents of the zip file.
 3. **Update Credentials:**
    - Open the `credentials.js` file located in the extracted folder.
    - Replace the dummy login credentials with your actual login credentials.
 4. **Install Extension:**
-   - Open Chrome and go to the Chrome Extension page (`chrome://extensions/`).
+   - Open Chrome and go to the Chrome Extension page [(`chrome://extensions/`)](chrome://extensions/).
    - Enable Developer Mode.
    - Click on "Load unpacked" and select the folder containing all the extracted files for the extension.
 5. **Activation:**
